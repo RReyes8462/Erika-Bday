@@ -2,7 +2,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 260px;
+  max-width: 200px;
   position: relative;
   margin: auto;
 }
@@ -62,8 +62,6 @@
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  position:absolute;
-  padding: 0px 0px 0px 10px;
   height: 15px;
   width: 15px;
   margin: 0 2px;
