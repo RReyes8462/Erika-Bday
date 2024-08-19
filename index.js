@@ -30,7 +30,10 @@ genText.addEventListener("click", function() {
     "Biggest Gyatt !?!! -Red",
     "Professional Tattoo Artist :O -Red",
     "Beetlejuice luvr -Red",
-    "Karaoke kween :D -Red"
+    "Karaoke kween :D -Red",
+    "U r kaweewee -Ryree",
+    "U R SO SLAY -AG",
+    
 
   ]
   const textEl = document.querySelector(".textMessage")
