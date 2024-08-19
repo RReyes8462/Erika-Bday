@@ -26,7 +26,12 @@ genText.addEventListener("click", function() {
     "Twin flame -Le",
     "CEO of rocking every hair color -Le",
     "Cutest gal -Le",
-    "Thither -Manda"
+    "Thither -Manda",
+    "Biggest Gyatt !?!! -Red",
+    "Professional Tattoo Artist :O -Red",
+    "Beetlejuice luvr -Red",
+    "Karaoke kween :D -Red"
+
   ]
   const textEl = document.querySelector(".textMessage")
   textEl.textContent = messages[Math.floor( Math.random()*messages.length )]
