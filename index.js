@@ -22,7 +22,11 @@ genText.addEventListener("click", function() {
     "Bestie poo -Mish",
     "Best chem partner eva -Mish",
     "Greatest climber of all time -Mish",
-    "Thanks for letting me nap -Mish"
+    "Thanks for letting me nap -Mish",
+    "Twin flame -Le",
+    "CEO of rocking every hair color -Le",
+    "Cutest gal -Le",
+    "Thither -Manda"
   ]
   const textEl = document.querySelector(".textMessage")
   textEl.textContent = messages[Math.floor( Math.random()*messages.length )]
