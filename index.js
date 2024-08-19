@@ -15,7 +15,9 @@ genText.addEventListener("click", function() {
     "Best Nami Cosplayer !! -Red",
     "Best Erza Cosplayer !! -Red",
     "Best Misty Cosplayer !! -Red",
-    "Herro Girlfriend ;) -Red"
+    "Herro Girlfriend ;) -Red",
+    "Ur Poggers -Manda",
+    "Ur so awesome sauce! -verlyn"
   ]
   const textEl = document.querySelector(".textMessage")
   textEl.textContent = messages[Math.floor( Math.random()*messages.length )]
