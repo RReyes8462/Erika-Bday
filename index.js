@@ -38,7 +38,7 @@ var messages = [
 
 ]
 const textEl = document.querySelector(".textMessage")
-const makeGetUniqueRandomNumber = (x) => {
+var makeGetUniqueRandomNumber = (x) => {
   const chosenNumbers = new Set();
   return () => {
     if (chosenNumbers.size === x) {
