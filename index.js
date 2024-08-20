@@ -52,7 +52,7 @@ const makeGetUniqueRandomNumber = (x) => {
     return num;
   };
 };
-const getRandMsgs = makeGetUniqueRandomNumber(messages.length);
+var getRandMsgs = makeGetUniqueRandomNumber(messages.length);
 var count =1;
 genText.addEventListener("click", function() {
   count++;
