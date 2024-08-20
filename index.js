@@ -53,12 +53,12 @@ const makeGetUniqueRandomNumber = (x) => {
   };
 };
 const getRandMsgs = makeGetUniqueRandomNumber(messages.length);
-let count =0;
+var count =0;
 genText.addEventListener("click", function() {
   count++;
   if (count === messages.length){
     const getRandMsgs = makeGetUniqueRandomNumber(messages.length);
-    let count = 0;
+    count = 0;
   }
   textEl.textContent = messages[getRandMsgs()]
 })
