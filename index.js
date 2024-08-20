@@ -1,6 +1,6 @@
 const genText = document.getElementById("gen-text")
 
-let messages = [
+var messages = [
   "Happy Birthday Present Erika!! -Red",
   "I Lorb uu hehehee... -Red",
   "Is this luv? -Red",
