@@ -39,5 +39,19 @@ genText.addEventListener("click", function() {
 
   ]
   const textEl = document.querySelector(".textMessage")
-  textEl.textContent = messages[Math.floor( Math.random()*messages.length )]
+  const makeGetUniqueRandomNumber = (x) => {
+    const chosenNumbers = new Set();
+    return () => {
+      if (chosenNumbers.size === x) {
+        throw new Error('No more uniques!');
+      }
+      let num;
+      do {
+        num = Math.floor(Math.random() * x);
+      } while (chosenNumbers.has(num));
+      chosenNumbers.add(num);
+      return num;
+    };
+  };
+  textEl.textContent = messages[Math.floor( makeGetUniqueRandomNumber(messages.length) )]
 })
