@@ -43,7 +43,7 @@ genText.addEventListener("click", function() {
     const chosenNumbers = new Set();
     return () => {
       if (chosenNumbers.size === x) {
-        throw new Error('No more uniques!');
+        const chosenNumbers = new Set();
       }
       let num;
       do {
@@ -53,5 +53,6 @@ genText.addEventListener("click", function() {
       return num;
     };
   };
-  textEl.textContent = messages[Math.floor( makeGetUniqueRandomNumber(messages.length) )]
+  const getRandMsgs = makeGetUniqueRandomNumber(messages.length);
+  textEl.textContent = messages[getRandMsgs()]
 })
