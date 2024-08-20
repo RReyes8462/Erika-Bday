@@ -33,7 +33,9 @@ genText.addEventListener("click", function() {
     "Karaoke kween :D -Red",
     "U r kaweewee -Ryree",
     "U R SO SLAY -AG",
-    
+    "Happy bday kakay, i love you always! -yan",
+    "Thank u for fun memories :)) -yan",
+    "My gingerbread girl -yan"    
 
   ]
   const textEl = document.querySelector(".textMessage")
