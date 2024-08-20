@@ -32,10 +32,11 @@ var messages = [
   "Karaoke kween :D -Red",
   "U r kaweewee -Ryree",
   "U R SO SLAY -AG",
-  "Happy bday kakay, i love you always! -yan",
-  "Thank u for fun memories :)) -yan",
-  "My gingerbread girl -yan"    
-
+  "Happy bday kakay, i love you always! -Yan",
+  "Thank u for fun memories :)) -Yan",
+  "My gingerbread girl -Yan",
+  "ERIKAAA so glad we reconnected again!! -Ray",
+  "U grew up so so beautiful and i love youuu -Ray"
 ]
 const textEl = document.querySelector(".textMessage")
 var makeGetUniqueRandomNumber = (x) => {
