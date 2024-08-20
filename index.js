@@ -36,7 +36,8 @@ var messages = [
   "Thank u for fun memories :)) -Yan",
   "My gingerbread girl -Yan",
   "ERIKAAA so glad we reconnected again!! -Ray",
-  "U grew up so so beautiful and i love youuu -Ray"
+  "U grew up so so beautiful and i love youuu -Ray",
+  "Pretty Angel -Daria"
 ]
 const textEl = document.querySelector(".textMessage")
 var makeGetUniqueRandomNumber = (x) => {
